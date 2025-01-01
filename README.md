@@ -6,12 +6,20 @@ It allows you to search for and locate objects placed on a support remotely usin
 List of open sources for this project
 
 ## Microcontroller Bibus 
+The Bluetooth LE controller controls the display of the lights: it receives and processes the messages sent from the mobile app via Bluetooth Low Energy and transmits them to the self-addressable LEDs to light up those associated with the requested positions.
+
 Source code for prototype [Leds display and Bluetooth communication](https://github.com/manumazu/bibus-proto)
 
 ## Bibliobus API
+The API centralizes data about objects and their location on the shelf. 
+It organize the items and authenticate the connection with the Bluetooth controller via the mobile app. 
+It is the one that contains the classifying system for information.
+
 Source code for [API project](https://github.com/manumazu/bibliobus-api)
 
 ## Test API sample
+Sample project for Mobile App which sould act as a relay between the controller and the API that stores the information. The app transmits location information to the lighting system based on the position data. It is also used to reference objects in the index.
+
 Sample project for [testing API](https://github.com/manumazu/bibliobus-demo)
 
 ## Biblio Front
