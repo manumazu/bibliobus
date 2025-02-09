@@ -24,3 +24,6 @@ Sample project for [testing API](https://github.com/manumazu/bibliobus-demo)
 
 ## Biblio Front
 [VueJS front project](https://github.com/manumazu/bibliofront) for book index arrangement 
+
+## Biblio Game
+[Blockly Project](https://github.com/manumazu/bibliogame) to learn coding with blocks (as Scratch), and play with Bibus module lighting : make loops, conditions, timers ... preview in the browser the result and then display code on leds usinfg mobile app. Fun for kids who want to learn coding. 
